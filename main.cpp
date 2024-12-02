@@ -1,5 +1,5 @@
-#include <day1.h>
-#include <day2.h>
+#include "day1.h"
+#include "day2.h"
 
 #include <iostream>
 
