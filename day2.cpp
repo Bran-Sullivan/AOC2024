@@ -7,6 +7,7 @@
 #include <vector>
 #include <algorithm>
 #include <cmath>
+#include <chrono>
 
 int checkline(std::string line, int ignore);
 
@@ -39,7 +40,14 @@ int d2p1(){
 int d2p2(){
     int total = 0, num1, safe, i;
     std::string line;
+    bool first = true;
+    std::chrono::high_resolution_clock clock;
+    auto t = clock.now();
     while(std::getline(std::cin, line)){
+        if(first){
+            t=clock.now();
+            first = false;
+        }
         safe = 0;
         i=0;
         std::istringstream stream(line);
@@ -51,8 +59,9 @@ int d2p2(){
             i++;
         }
         total += safe;
-        std::cout << safe;
     }
+    auto t2 = clock.now();
+    std::cout << std::chrono::duration_cast<std::chrono::microseconds>(t2-t).count() << "\n";
     return total;
 }
 

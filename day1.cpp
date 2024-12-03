@@ -7,7 +7,7 @@
 #include <algorithm>
 
 int d1p1(){
-    int num1,num2,dist;
+    int num1,num2,dist=0;
     std::vector<int> list1, list2;
     while (std::cin >> num1 >> num2) {
         list1.push_back(num1);
