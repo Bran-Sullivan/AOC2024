@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "c:/Users/storm/Documents/AOC24",
-      "program": "c:/Users/storm/Documents/AOC24/build/Release/outRelease",
+      "program": "c:/Users/storm/Documents/AOC24/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

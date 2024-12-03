@@ -10,6 +10,6 @@ int main(){
     //cout << d1p2() << "\n";
     //cout << d2p1() << "\n";
     //cout << d2p2() << "\n";
-    cout << d3p1() << "\n";
-    //cout << d3p2() << "\n";
+    //cout << d3p1() << "\n";
+    cout << d3p2() << "\n";
 }
