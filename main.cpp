@@ -13,6 +13,6 @@ int main(){
     //cout << d2p2() << "\n";
     //cout << d3p1() << "\n";
     //cout << d3p2() << "\n";
-    cout << d4p1() << "\n";
-    //cout << d4p2() << "\n";
+    //cout << d4p1() << "\n";
+    cout << d4p2() << "\n";
 }
