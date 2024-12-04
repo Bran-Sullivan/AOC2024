@@ -34,7 +34,6 @@ int d3p2(){
         auto matches_end = std::sregex_iterator();
         for(std::sregex_iterator i = matches_begin; i != matches_end; ++i){
             std::smatch match = *i;
-            std::cout << match[0].str() << "\n";
             if(match[0].str() == "do()"){
                 active = true;
             }
