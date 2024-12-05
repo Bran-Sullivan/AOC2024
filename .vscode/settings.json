@@ -112,6 +112,7 @@
     "ratio": "cpp",
     "iomanip": "cpp",
     "bitset": "cpp",
-    "regex": "cpp"
+    "regex": "cpp",
+    "set": "cpp"
   }
 }
