@@ -61,7 +61,7 @@ int d5p2(){
         auto matches_end = std::sregex_iterator();
         for(std::sregex_iterator i = matches_begin; i != matches_end; ++i){
             std::smatch match = *i;
-            map[std::stoi(match[1].str())].insert(std::stoi(match[2].str())); //can check if any of the invalid ones have come before it. (indexed by second number)
+            map[std::stoi(match[1].str())].insert(std::stoi(match[2].str()));
         }
     }
     std::vector<std::vector<int>> incorrect;
