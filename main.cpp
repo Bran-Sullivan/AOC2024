@@ -19,6 +19,6 @@ int main(){
     //cout << d4p2() << "\n";
     //cout << d5p1() << "\n";
     //cout << d5p2() << "\n";
-    cout << d6p1() << "\n";
-    //cout << d6p2() << "\n";
+    //cout << d6p1() << "\n";
+    cout << d6p2() << "\n";
 }
