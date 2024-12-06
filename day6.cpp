@@ -63,7 +63,7 @@ int d6p1(){
     return total;
 }
 
-int d6p2(){
+int d6p2(){ //takes 28 seconds...
     int total = 0;
     std::vector<int> guard (2,0); //couldn't figure out tuples
     std::vector<int> nextpos (2,0);

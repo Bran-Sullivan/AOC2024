@@ -4,6 +4,7 @@
 #include "day4.h"
 #include "day5.h"
 #include "day6.h"
+#include "day7.h"
 
 #include <iostream>
 using std::cout;
@@ -20,5 +21,7 @@ int main(){
     //cout << d5p1() << "\n";
     //cout << d5p2() << "\n";
     //cout << d6p1() << "\n";
-    cout << d6p2() << "\n";
+    //cout << d6p2() << "\n";
+    cout << d7p1() << "\n";
+    //cout << d7p2() << "\n";
 }
